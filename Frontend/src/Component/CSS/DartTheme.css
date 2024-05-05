@@ -1,0 +1,131 @@
+
+
+body, h1, h2, h3, p, div, input, button,
+a, li, ul {
+  user-select: none;
+}
+
+body {
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assests/3d-modern-data-technology-background-with-plexus-design.jpg');    color: #ffffff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  .no-focus-outline {
+    outline: none;
+  }
+
+  .no-border {
+    border: none;
+  }
+
+  .carousel-indicators button.thumbnail{
+    width: 100px;
+  }
+  .carousel-indicators button.thumbnail:not(.active){opacity: .6;}
+
+  .zoom-opacity-effect {
+    overflow: hidden;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+.zoom-opacity-effect img {
+    transition: transform 0.3s ease;
+}
+
+/* .zoom-opacity-effect:hover img {
+    transform: scale(1.2); 
+} */
+
+.zoom-opacity-effect:hover {
+    opacity: 0.7;
+}
+
+
+.square-container1 {
+  width: 200px; 
+  height: 200px; 
+  background-color:#262E7B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar {
+  background-color: #353233;
+}
+.hover-effect:hover {
+  transform: scale(1.2); /* increase size on hover */
+}
+.square-container2 {
+  width: 200px; 
+  height: 200px; 
+  background-color: #288932;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.square-container {
+  width: 200px; 
+  height: 200px; 
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+
+  .carousel{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+.carousel-inner img {
+  height: 500px; 
+  object-fit: cover; 
+}
+
+.fixed-bottom-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* You can adjust the z-index as needed */
+}
+/* Hide the icon in crucial indicators */
+.carousel-indicators.crucial button::before {
+  content: ""; /* Remove content */
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+/* App.css */
+
+.add-slider-button {
+  display: inline-block;
+  padding: 10px 20px;
+  
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+  
+  
