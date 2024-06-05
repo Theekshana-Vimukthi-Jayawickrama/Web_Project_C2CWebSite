@@ -112,12 +112,12 @@ const AddAdminUser = () => {
     
       const handleSendOTP = async () => {
         if (
-          !validateEmail() ||
-          !validateFullName() ||
-          !validateTelephone() ||
-          !validateDob() ||
-          !validatePassword() ||
-          !validateConfirmPassword()
+          validateEmail() &&
+          validateFullName() &&
+          validateTelephone() &&
+          validateDob() &&
+          validatePassword() &&
+          validateConfirmPassword()
         ) {
           alert("Invalid input")
     
